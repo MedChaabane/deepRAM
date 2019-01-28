@@ -1,0 +1,1340 @@
+MEME version 4
+
+ALPHABET= ACGU
+
+Background letter frequencies (from uniform background):
+A 0.25000 C 0.25000 G 0.25000 U 0.25000 
+
+MOTIF RNCMPT00001 A1CF
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.395329	  0.105514	  0.105514	  0.393643	
+  0.007705	  0.007705	  0.007705	  0.976886	
+  0.976886	  0.007705	  0.007705	  0.007705	
+  0.976886	  0.007705	  0.007705	  0.007705	
+  0.007705	  0.007705	  0.007705	  0.976886	
+  0.007705	  0.007705	  0.007705	  0.976886	
+  0.321131	  0.143804	  0.478371	  0.056694	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00002 ANKHD1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.773203	  0.075599	  0.075599	  0.075599	
+  0.004305	  0.004305	  0.987086	  0.004305	
+  0.987086	  0.004305	  0.004305	  0.004305	
+  0.004305	  0.987086	  0.004305	  0.004305	
+  0.004305	  0.004305	  0.987086	  0.004305	
+  0.228810	  0.102089	  0.004305	  0.664797	
+  0.427754	  0.079309	  0.099730	  0.393206	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00004 BRUNOL4
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.085063	  0.085063	  0.175952	  0.653921	
+  0.013046	  0.013046	  0.776577	  0.197330	
+  0.013046	  0.013046	  0.013046	  0.960861	
+  0.013046	  0.013046	  0.764576	  0.209331	
+  0.013046	  0.013046	  0.104634	  0.869273	
+  0.013046	  0.013046	  0.666799	  0.307108	
+  0.083101	  0.083101	  0.264548	  0.569250	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00166 BRUNOL5
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.083964	  0.083964	  0.083964	  0.748109	
+  0.010123	  0.010123	  0.880222	  0.099532	
+  0.010123	  0.010123	  0.010123	  0.969631	
+  0.010123	  0.010123	  0.772611	  0.207143	
+  0.010123	  0.010123	  0.096110	  0.883644	
+  0.010123	  0.010123	  0.734305	  0.245449	
+  0.057167	  0.057167	  0.228839	  0.656826	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00187 BRUNOL6
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.060327	  0.060327	  0.060327	  0.819020	
+  0.013041	  0.013041	  0.960876	  0.013041	
+  0.013041	  0.013041	  0.013041	  0.960876	
+  0.013041	  0.013041	  0.858392	  0.115525	
+  0.202543	  0.013041	  0.400629	  0.383787	
+  0.013041	  0.013041	  0.478254	  0.495663	
+  0.060273	  0.060273	  0.731747	  0.147707	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00156 CNOT4
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.028926	  0.168883	  0.773265	  0.028926	
+  0.984561	  0.005146	  0.005146	  0.005146	
+  0.005146	  0.914510	  0.075197	  0.005146	
+  0.984561	  0.005146	  0.005146	  0.005146	
+  0.005146	  0.184168	  0.805540	  0.005146	
+  0.984561	  0.005146	  0.005146	  0.005146	
+  0.301008	  0.184127	  0.209704	  0.305161	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00012 CPEB2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.032879	  0.796091	  0.032879	  0.138151	
+  0.277372	  0.218126	  0.008945	  0.495557	
+  0.104263	  0.096170	  0.008945	  0.790621	
+  0.008945	  0.008945	  0.008945	  0.973164	
+  0.008945	  0.008945	  0.008945	  0.973164	
+  0.008945	  0.008945	  0.008945	  0.973164	
+  0.032710	  0.032710	  0.214375	  0.720205	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00158 CPEB4
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.169793	  0.452469	  0.164509	  0.213229	
+  0.096930	  0.091988	  0.006582	  0.804500	
+  0.006582	  0.006582	  0.006582	  0.980253	
+  0.006582	  0.006582	  0.006582	  0.980253	
+  0.006582	  0.006582	  0.006582	  0.980253	
+  0.006582	  0.006582	  0.090566	  0.896270	
+  0.030536	  0.030536	  0.030536	  0.908393	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00013 DAZAP1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.012021	  0.012021	  0.012021	  0.963936	
+  0.963936	  0.012021	  0.012021	  0.012021	
+  0.101644	  0.012021	  0.874313	  0.012021	
+  0.117534	  0.012021	  0.670502	  0.199943	
+  0.201960	  0.012021	  0.099222	  0.686796	
+  0.686796	  0.012021	  0.097911	  0.203272	
+  0.337268	  0.059158	  0.544416	  0.059158	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00149 ENOX1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.343506	  0.437938	  0.066673	  0.151883	
+  0.584889	  0.145253	  0.226539	  0.043320	
+  0.019597	  0.119925	  0.660549	  0.199930	
+  0.941209	  0.019597	  0.019597	  0.019597	
+  0.019597	  0.853150	  0.019597	  0.107656	
+  0.849123	  0.019597	  0.111683	  0.019597	
+  0.065343	  0.065343	  0.803970	  0.065343	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00150 ESRP2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.085113	  0.085113	  0.085113	  0.744660	
+  0.037294	  0.037294	  0.888118	  0.037294	
+  0.012879	  0.012879	  0.961362	  0.012879	
+  0.012879	  0.012879	  0.961362	  0.012879	
+  0.219485	  0.036743	  0.707029	  0.036743	
+  0.716461	  0.036743	  0.210053	  0.036743	
+  0.206193	  0.107355	  0.197175	  0.489277	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00016 FMR1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.110871	  0.110871	  0.576231	  0.202027	
+  0.018333	  0.018333	  0.945001	  0.018333	
+  0.945001	  0.018333	  0.018333	  0.018333	
+  0.018333	  0.945001	  0.018333	  0.018333	
+  0.766210	  0.018333	  0.197124	  0.018333	
+  0.499700	  0.041453	  0.417394	  0.041453	
+  0.133741	  0.041453	  0.783354	  0.041453	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00018 FUS
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.184857	  0.173742	  0.173172	  0.468230	
+  0.156523	  0.150250	  0.538129	  0.155098	
+  0.016902	  0.949295	  0.016902	  0.016902	
+  0.016902	  0.016902	  0.949295	  0.016902	
+  0.016902	  0.949295	  0.016902	  0.016902	
+  0.016902	  0.016902	  0.949295	  0.016902	
+  0.039958	  0.791476	  0.039958	  0.128607	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00161 FXR1
+
+letter-probability matrix: alength= 4 w= 8 nsites= 20 E= 0
+  0.594617	  0.135128	  0.135128	  0.135128	
+  0.883469	  0.038844	  0.038844	  0.038844	
+  0.015604	  0.377853	  0.015604	  0.590939	
+  0.015604	  0.015604	  0.953187	  0.015604	
+  0.862000	  0.015604	  0.106791	  0.015604	
+  0.106791	  0.862000	  0.015604	  0.015604	
+  0.586908	  0.015604	  0.381883	  0.015604	
+  0.608334	  0.130555	  0.130555	  0.130555	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00020 FXR2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.178194	  0.087275	  0.559956	  0.174576	
+  0.018709	  0.018709	  0.943872	  0.018709	
+  0.943872	  0.018709	  0.018709	  0.018709	
+  0.018709	  0.943872	  0.018709	  0.018709	
+  0.390030	  0.018709	  0.572552	  0.018709	
+  0.467655	  0.018709	  0.494927	  0.018709	
+  0.236167	  0.041807	  0.680219	  0.041807	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00021 G3BP2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.742366	  0.058178	  0.058178	  0.141278	
+  0.034508	  0.034508	  0.896475	  0.034508	
+  0.010931	  0.010931	  0.967207	  0.010931	
+  0.967207	  0.010931	  0.010931	  0.010931	
+  0.010931	  0.010931	  0.010931	  0.967207	
+  0.310913	  0.010931	  0.480632	  0.197524	
+  0.608185	  0.010931	  0.281095	  0.099788	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00022 HNRNPA1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.268221	  0.082931	  0.272138	  0.376709	
+  0.009608	  0.009608	  0.009608	  0.971175	
+  0.971175	  0.009608	  0.009608	  0.009608	
+  0.009608	  0.009608	  0.971175	  0.009608	
+  0.009608	  0.009608	  0.971175	  0.009608	
+  0.009608	  0.009608	  0.877684	  0.103099	
+  0.591092	  0.103957	  0.103957	  0.200994	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00023 HNRNPA1L2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.177970	  0.086131	  0.267262	  0.468637	
+  0.013100	  0.013100	  0.013100	  0.960701	
+  0.960701	  0.013100	  0.013100	  0.013100	
+  0.013100	  0.013100	  0.960701	  0.013100	
+  0.013100	  0.013100	  0.960701	  0.013100	
+  0.036471	  0.036471	  0.799055	  0.128002	
+  0.452984	  0.082779	  0.082779	  0.381458	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00024 HNRNPA2B1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.293787	  0.106691	  0.294857	  0.304665	
+  0.058238	  0.058238	  0.058238	  0.825285	
+  0.967611	  0.010796	  0.010796	  0.010796	
+  0.010796	  0.010796	  0.967611	  0.010796	
+  0.010796	  0.010796	  0.967611	  0.010796	
+  0.010796	  0.010796	  0.967611	  0.010796	
+  0.659321	  0.082386	  0.082386	  0.175907	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00025 HNRNPC
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.565810	  0.184580	  0.080344	  0.169265	
+  0.006153	  0.006153	  0.006153	  0.981541	
+  0.006153	  0.006153	  0.006153	  0.981541	
+  0.006153	  0.006153	  0.006153	  0.981541	
+  0.006153	  0.006153	  0.006153	  0.981541	
+  0.006153	  0.006153	  0.006153	  0.981541	
+  0.054568	  0.147524	  0.272217	  0.525691	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00167 HNRNPCL1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.539994	  0.180235	  0.079750	  0.200020	
+  0.005311	  0.005311	  0.005311	  0.984067	
+  0.005311	  0.005311	  0.005311	  0.984067	
+  0.005311	  0.005311	  0.005311	  0.984067	
+  0.005311	  0.005311	  0.005311	  0.984067	
+  0.005311	  0.005311	  0.005311	  0.984067	
+  0.053241	  0.131117	  0.255010	  0.560633	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00160 HNRNPH2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.055748	  0.120905	  0.767599	  0.055748	
+  0.029487	  0.091773	  0.849252	  0.029487	
+  0.099100	  0.069719	  0.825351	  0.005830	
+  0.760796	  0.069719	  0.070384	  0.099100	
+  0.005830	  0.069719	  0.812196	  0.112256	
+  0.005830	  0.069719	  0.918622	  0.005830	
+  0.136874	  0.136240	  0.651529	  0.075358	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00026 HNRNPK
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.109805	  0.856032	  0.017082	  0.017082	
+  0.108255	  0.764858	  0.017082	  0.109805	
+  0.856032	  0.017082	  0.017082	  0.109805	
+  0.593492	  0.017082	  0.103136	  0.286291	
+  0.312761	  0.502420	  0.040993	  0.143825	
+  0.064275	  0.807175	  0.064275	  0.064275	
+  0.088050	  0.735850	  0.088050	  0.088050	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00027 HNRNPL
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.737563	  0.146785	  0.057826	  0.057826	
+  0.191433	  0.686074	  0.011114	  0.111379	
+  0.966659	  0.011114	  0.011114	  0.011114	
+  0.110283	  0.671474	  0.011114	  0.207129	
+  0.884128	  0.011114	  0.011114	  0.093644	
+  0.274029	  0.703744	  0.011114	  0.011114	
+  0.716365	  0.213976	  0.034830	  0.034830	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00091 HNRNPL
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.941252	  0.019583	  0.019583	  0.019583	
+  0.019583	  0.941252	  0.019583	  0.019583	
+  0.941252	  0.019583	  0.019583	  0.019583	
+  0.112325	  0.848510	  0.019583	  0.019583	
+  0.477099	  0.112325	  0.390994	  0.019583	
+  0.763400	  0.107126	  0.109891	  0.019583	
+  0.361424	  0.270886	  0.277205	  0.090486	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00178 HNRPLL
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.646437	  0.057251	  0.239060	  0.057251	
+  0.010037	  0.969888	  0.010037	  0.010037	
+  0.969888	  0.010037	  0.010037	  0.010037	
+  0.185489	  0.520360	  0.092405	  0.201746	
+  0.759427	  0.010037	  0.220499	  0.010037	
+  0.010037	  0.969888	  0.010037	  0.010037	
+  0.969888	  0.010037	  0.010037	  0.010037	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00112 HuR
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.058324	  0.058324	  0.058324	  0.825028	
+  0.058324	  0.058324	  0.058324	  0.825028	
+  0.228364	  0.011065	  0.098486	  0.662084	
+  0.116566	  0.011065	  0.769064	  0.103304	
+  0.011065	  0.011065	  0.195973	  0.781897	
+  0.011065	  0.011065	  0.011065	  0.966805	
+  0.057875	  0.057875	  0.057875	  0.826375	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00117 HuR
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.033204	  0.033204	  0.033204	  0.900389	
+  0.033204	  0.033204	  0.033204	  0.900389	
+  0.140105	  0.009265	  0.097093	  0.753537	
+  0.189910	  0.099147	  0.613030	  0.097913	
+  0.009265	  0.009265	  0.292887	  0.688583	
+  0.009265	  0.097913	  0.009265	  0.883558	
+  0.057362	  0.057362	  0.145933	  0.739343	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00136 HuR
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.210756	  0.032594	  0.032594	  0.724055	
+  0.008571	  0.008571	  0.008571	  0.974287	
+  0.132946	  0.008571	  0.584141	  0.274342	
+  0.293663	  0.008571	  0.596294	  0.101473	
+  0.008571	  0.008571	  0.100992	  0.881866	
+  0.008571	  0.008571	  0.008571	  0.974287	
+  0.032614	  0.032614	  0.032614	  0.902157	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00032 HuR
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.006480	  0.006480	  0.006480	  0.980561	
+  0.006480	  0.006480	  0.006480	  0.980561	
+  0.536437	  0.006480	  0.177270	  0.279813	
+  0.087918	  0.006480	  0.185654	  0.719948	
+  0.006480	  0.006480	  0.006480	  0.980561	
+  0.006480	  0.006480	  0.006480	  0.980561	
+  0.056950	  0.143730	  0.143650	  0.655670	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00274 HuR
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.009890	  0.113671	  0.107291	  0.769148	
+  0.009890	  0.009890	  0.009890	  0.970331	
+  0.107238	  0.009890	  0.009890	  0.872982	
+  0.096110	  0.009890	  0.096464	  0.797537	
+  0.009890	  0.009890	  0.095046	  0.885174	
+  0.009890	  0.100593	  0.095046	  0.794471	
+  0.009890	  0.103464	  0.195407	  0.691239	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00033 IGF2BP2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.564545	  0.176611	  0.171979	  0.086865	
+  0.399783	  0.520699	  0.039759	  0.039759	
+  0.951033	  0.016322	  0.016322	  0.016322	
+  0.507026	  0.199209	  0.016322	  0.277442	
+  0.596933	  0.109302	  0.016322	  0.277442	
+  0.109302	  0.858053	  0.016322	  0.016322	
+  0.951033	  0.016322	  0.016322	  0.016322	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00172 IGF2BP3
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.713391	  0.161112	  0.062748	  0.062748	
+  0.396295	  0.487742	  0.015588	  0.100376	
+  0.784815	  0.099221	  0.015588	  0.100376	
+  0.387504	  0.298010	  0.015588	  0.298898	
+  0.575992	  0.109522	  0.015588	  0.298898	
+  0.199370	  0.769453	  0.015588	  0.015588	
+  0.863386	  0.105437	  0.015588	  0.015588	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00169 KHDRBS1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.798665	  0.033955	  0.033955	  0.133425	
+  0.009746	  0.009746	  0.009746	  0.970762	
+  0.884218	  0.009746	  0.009746	  0.096290	
+  0.970762	  0.009746	  0.009746	  0.009746	
+  0.878450	  0.009746	  0.009746	  0.102057	
+  0.899439	  0.033520	  0.033520	  0.033520	
+  0.286279	  0.195872	  0.413270	  0.104579	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00185 KHDRBS2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.357306	  0.082405	  0.477884	  0.082405	
+  0.868569	  0.108171	  0.011630	  0.011630	
+  0.011630	  0.102159	  0.011630	  0.874581	
+  0.784052	  0.011630	  0.011630	  0.192688	
+  0.965110	  0.011630	  0.011630	  0.011630	
+  0.874969	  0.011630	  0.011630	  0.101771	
+  0.516879	  0.318808	  0.036202	  0.128111	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00034 KHDRBS3
+
+letter-probability matrix: alength= 4 w= 8 nsites= 20 E= 0
+  0.212203	  0.129283	  0.529231	  0.129283	
+  0.969766	  0.010078	  0.010078	  0.010078	
+  0.010078	  0.010078	  0.010078	  0.969766	
+  0.969766	  0.010078	  0.010078	  0.010078	
+  0.969766	  0.010078	  0.010078	  0.010078	
+  0.969766	  0.010078	  0.010078	  0.010078	
+  0.211219	  0.530114	  0.224002	  0.034665	
+  0.233726	  0.314652	  0.320817	  0.130804	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00036 LIN28A
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.304006	  0.387398	  0.109358	  0.199238	
+  0.039266	  0.039266	  0.882201	  0.039266	
+  0.039266	  0.039266	  0.882201	  0.039266	
+  0.882201	  0.039266	  0.039266	  0.039266	
+  0.015516	  0.015516	  0.953452	  0.015516	
+  0.695454	  0.039266	  0.039266	  0.226014	
+  0.719902	  0.062553	  0.154991	  0.062553	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00162 LIN28A
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.112110	  0.575850	  0.112110	  0.199930	
+  0.061789	  0.146185	  0.730236	  0.061789	
+  0.095024	  0.099817	  0.790096	  0.015064	
+  0.870056	  0.099817	  0.015064	  0.015064	
+  0.015064	  0.099817	  0.870056	  0.015064	
+  0.015064	  0.099817	  0.870056	  0.015064	
+  0.444437	  0.144544	  0.349923	  0.061096	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00037 MATR3
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.458381	  0.367197	  0.087211	  0.087211	
+  0.865133	  0.017192	  0.017192	  0.100482	
+  0.100654	  0.017192	  0.017192	  0.864962	
+  0.017192	  0.948423	  0.017192	  0.017192	
+  0.017192	  0.017192	  0.017192	  0.948423	
+  0.017192	  0.017192	  0.017192	  0.948423	
+  0.177173	  0.087882	  0.647063	  0.087882	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00038 MBNL1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.315548	  0.190242	  0.212007	  0.282204	
+  0.008622	  0.118400	  0.864356	  0.008622	
+  0.008622	  0.864356	  0.008622	  0.118400	
+  0.008622	  0.008622	  0.008622	  0.974134	
+  0.008622	  0.008622	  0.008622	  0.974134	
+  0.115568	  0.032950	  0.818532	  0.032950	
+  0.056386	  0.749438	  0.137790	  0.056386	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00041 MSI1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.057391	  0.057391	  0.057391	  0.827827	
+  0.968267	  0.010578	  0.010578	  0.010578	
+  0.010578	  0.010578	  0.968267	  0.010578	
+  0.124089	  0.103803	  0.115982	  0.656126	
+  0.436631	  0.010578	  0.010578	  0.542214	
+  0.559229	  0.034097	  0.372577	  0.034097	
+  0.138156	  0.056942	  0.747959	  0.056942	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00176 MSI1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.034560	  0.034560	  0.034560	  0.896320	
+  0.966921	  0.011026	  0.011026	  0.011026	
+  0.011026	  0.011026	  0.966921	  0.011026	
+  0.110708	  0.100672	  0.202113	  0.586507	
+  0.361519	  0.011026	  0.100975	  0.526480	
+  0.563585	  0.057726	  0.320963	  0.057726	
+  0.102480	  0.102480	  0.692560	  0.102480	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00155 PABPC1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.757581	  0.080806	  0.080806	  0.080806	
+  0.326151	  0.123042	  0.518077	  0.032730	
+  0.974428	  0.008524	  0.008524	  0.008524	
+  0.974428	  0.008524	  0.008524	  0.008524	
+  0.974428	  0.008524	  0.008524	  0.008524	
+  0.772857	  0.119944	  0.098675	  0.008524	
+  0.687289	  0.203573	  0.008524	  0.100614	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00153 PABPC3
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.264222	  0.082819	  0.570140	  0.082819	
+  0.964959	  0.011680	  0.011680	  0.011680	
+  0.964959	  0.011680	  0.011680	  0.011680	
+  0.964959	  0.011680	  0.011680	  0.011680	
+  0.964959	  0.011680	  0.011680	  0.011680	
+  0.095200	  0.800606	  0.011680	  0.092513	
+  0.329573	  0.549634	  0.060397	  0.060397	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00043 PABPC4
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.778437	  0.103080	  0.110525	  0.007958	
+  0.790963	  0.103881	  0.097198	  0.007958	
+  0.976127	  0.007958	  0.007958	  0.007958	
+  0.976127	  0.007958	  0.007958	  0.007958	
+  0.976127	  0.007958	  0.007958	  0.007958	
+  0.684737	  0.111017	  0.103752	  0.100495	
+  0.682707	  0.104799	  0.204536	  0.007958	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00171 PABPC5
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.754944	  0.081685	  0.081685	  0.081685	
+  0.201446	  0.036594	  0.725366	  0.036594	
+  0.960027	  0.013324	  0.013324	  0.013324	
+  0.960027	  0.013324	  0.013324	  0.013324	
+  0.960027	  0.013324	  0.013324	  0.013324	
+  0.463978	  0.111675	  0.196267	  0.228079	
+  0.111062	  0.180493	  0.013324	  0.695121	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00157 PABPN1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.974659	  0.008447	  0.008447	  0.008447	
+  0.283086	  0.008447	  0.700020	  0.008447	
+  0.974659	  0.008447	  0.008447	  0.008447	
+  0.974659	  0.008447	  0.008447	  0.008447	
+  0.193759	  0.095576	  0.702217	  0.008447	
+  0.974659	  0.008447	  0.008447	  0.008447	
+  0.224876	  0.312170	  0.225891	  0.237063	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00186 PCBP1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.060777	  0.817669	  0.060777	  0.060777	
+  0.102003	  0.868663	  0.014667	  0.014667	
+  0.291028	  0.110005	  0.014667	  0.584300	
+  0.373745	  0.014667	  0.014667	  0.596920	
+  0.384799	  0.191567	  0.014667	  0.408968	
+  0.014667	  0.955999	  0.014667	  0.014667	
+  0.014667	  0.955999	  0.014667	  0.014667	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00044 PCBP2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.046320	  0.779292	  0.046320	  0.128069	
+  0.024144	  0.763613	  0.024144	  0.188098	
+  0.024144	  0.311334	  0.024144	  0.640377	
+  0.105624	  0.311334	  0.024144	  0.558898	
+  0.108039	  0.734923	  0.024144	  0.132894	
+  0.024144	  0.927567	  0.024144	  0.024144	
+  0.157967	  0.625488	  0.068061	  0.148484	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00045 PPRC1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.086966	  0.360843	  0.465224	  0.086966	
+  0.018506	  0.572626	  0.297105	  0.111763	
+  0.018506	  0.205899	  0.757089	  0.018506	
+  0.018506	  0.944482	  0.018506	  0.018506	
+  0.018506	  0.109711	  0.853277	  0.018506	
+  0.018506	  0.856794	  0.106194	  0.018506	
+  0.064957	  0.340098	  0.529988	  0.064957	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00268 PTBP1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.242168	  0.538758	  0.062005	  0.157070	
+  0.038639	  0.218876	  0.038639	  0.703846	
+  0.015301	  0.015301	  0.015301	  0.954098	
+  0.015301	  0.015301	  0.015301	  0.954098	
+  0.015301	  0.109172	  0.015301	  0.860226	
+  0.015301	  0.675671	  0.015301	  0.293727	
+  0.062081	  0.158058	  0.062081	  0.717779	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00269 PTBP1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.482936	  0.211619	  0.108073	  0.197372	
+  0.015605	  0.670412	  0.015605	  0.298378	
+  0.015605	  0.015605	  0.015605	  0.953185	
+  0.106236	  0.015605	  0.015605	  0.862554	
+  0.106236	  0.015605	  0.015605	  0.862554	
+  0.038830	  0.691175	  0.038830	  0.231165	
+  0.062502	  0.162216	  0.062502	  0.712780	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00047 QKI
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.824350	  0.058550	  0.058550	  0.058550	
+  0.014686	  0.955943	  0.014686	  0.014686	
+  0.014686	  0.014686	  0.014686	  0.955943	
+  0.955943	  0.014686	  0.014686	  0.014686	
+  0.955943	  0.014686	  0.014686	  0.014686	
+  0.014686	  0.820842	  0.014686	  0.149786	
+  0.411148	  0.304972	  0.173046	  0.110834	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00159 RALY
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.120423	  0.030364	  0.030364	  0.818849	
+  0.006047	  0.006047	  0.006047	  0.981860	
+  0.006047	  0.006047	  0.006047	  0.981860	
+  0.006047	  0.006047	  0.006047	  0.981860	
+  0.006047	  0.006047	  0.006047	  0.981860	
+  0.006047	  0.093330	  0.095158	  0.805466	
+  0.078456	  0.174053	  0.551652	  0.195838	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00168 RBFOX1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.312097	  0.051748	  0.051748	  0.584408	
+  0.004218	  0.004218	  0.987345	  0.004218	
+  0.004218	  0.987345	  0.004218	  0.004218	
+  0.987345	  0.004218	  0.004218	  0.004218	
+  0.004218	  0.004218	  0.004218	  0.987345	
+  0.004218	  0.004218	  0.987345	  0.004218	
+  0.313688	  0.481445	  0.102434	  0.102434	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00184 RBM24
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.471804	  0.081259	  0.081259	  0.365679	
+  0.009063	  0.009063	  0.972812	  0.009063	
+  0.292601	  0.009063	  0.009063	  0.689273	
+  0.009063	  0.009063	  0.972812	  0.009063	
+  0.009063	  0.009063	  0.009063	  0.972812	
+  0.009063	  0.009063	  0.972812	  0.009063	
+  0.535515	  0.057327	  0.157537	  0.249621	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00049 RBM28
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.080212	  0.080212	  0.759363	  0.080212	
+  0.512928	  0.035565	  0.035565	  0.415943	
+  0.012200	  0.012200	  0.963399	  0.012200	
+  0.012200	  0.012200	  0.012200	  0.963399	
+  0.963399	  0.012200	  0.012200	  0.012200	
+  0.012200	  0.012200	  0.963399	  0.012200	
+  0.403106	  0.084658	  0.163315	  0.348921	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00050 RBM3
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.169306	  0.082405	  0.665884	  0.082405	
+  0.719594	  0.036769	  0.206869	  0.036769	
+  0.184494	  0.013332	  0.191715	  0.610459	
+  0.960005	  0.013332	  0.013332	  0.013332	
+  0.191715	  0.781622	  0.013332	  0.013332	
+  0.125075	  0.036547	  0.597009	  0.241369	
+  0.682840	  0.105720	  0.105720	  0.105720	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00113 RBM4
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.030023	  0.114467	  0.747742	  0.107768	
+  0.005516	  0.818485	  0.170482	  0.005516	
+  0.005516	  0.005516	  0.983451	  0.005516	
+  0.005516	  0.892973	  0.095994	  0.005516	
+  0.005516	  0.095994	  0.892973	  0.005516	
+  0.005516	  0.306348	  0.604920	  0.083215	
+  0.079148	  0.079148	  0.762556	  0.079148	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00052 RBM4
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.054772	  0.054772	  0.835684	  0.054772	
+  0.006431	  0.980707	  0.006431	  0.006431	
+  0.006431	  0.006431	  0.980707	  0.006431	
+  0.006431	  0.893048	  0.094090	  0.006431	
+  0.006431	  0.094090	  0.893048	  0.006431	
+  0.006431	  0.221714	  0.678505	  0.093350	
+  0.056470	  0.234661	  0.570651	  0.138218	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00053 RBM41
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.446003	  0.056673	  0.056673	  0.440652	
+  0.009017	  0.009017	  0.009017	  0.972949	
+  0.972949	  0.009017	  0.009017	  0.009017	
+  0.009017	  0.972949	  0.009017	  0.009017	
+  0.582865	  0.009017	  0.009017	  0.399101	
+  0.009017	  0.009017	  0.009017	  0.972949	
+  0.104460	  0.104460	  0.194732	  0.596347	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00151 RBM42
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.762510	  0.079163	  0.079163	  0.079163	
+  0.974052	  0.008649	  0.008649	  0.008649	
+  0.008649	  0.974052	  0.008649	  0.008649	
+  0.008649	  0.008649	  0.008649	  0.974052	
+  0.974052	  0.008649	  0.008649	  0.008649	
+  0.521992	  0.317983	  0.032597	  0.127428	
+  0.104219	  0.104219	  0.687343	  0.104219	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00241 RBM45
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.080318	  0.080318	  0.759046	  0.080318	
+  0.829395	  0.056868	  0.056868	  0.056868	
+  0.122504	  0.720551	  0.123753	  0.033191	
+  0.009123	  0.009123	  0.876829	  0.104926	
+  0.767499	  0.009123	  0.214256	  0.009123	
+  0.239530	  0.693718	  0.033376	  0.033376	
+  0.451310	  0.285092	  0.182618	  0.080980	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00054 RBM46
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.713699	  0.035556	  0.215189	  0.035556	
+  0.965896	  0.011368	  0.011368	  0.011368	
+  0.011368	  0.011368	  0.011368	  0.965896	
+  0.011368	  0.597894	  0.379370	  0.011368	
+  0.965896	  0.011368	  0.011368	  0.011368	
+  0.603083	  0.035905	  0.131205	  0.229808	
+  0.301564	  0.109225	  0.197022	  0.392189	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00055 RBM5
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.130306	  0.038747	  0.792199	  0.038747	
+  0.883758	  0.038747	  0.038747	  0.038747	
+  0.701439	  0.038747	  0.221066	  0.038747	
+  0.015536	  0.015536	  0.953392	  0.015536	
+  0.015536	  0.015536	  0.953392	  0.015536	
+  0.626377	  0.063280	  0.063280	  0.247063	
+  0.577822	  0.110334	  0.201509	  0.110334	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00154 RBM5
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.063448	  0.270051	  0.603054	  0.063448	
+  0.878566	  0.040478	  0.040478	  0.040478	
+  0.668123	  0.106940	  0.118834	  0.106102	
+  0.017346	  0.196701	  0.768607	  0.017346	
+  0.017346	  0.107107	  0.858200	  0.017346	
+  0.700285	  0.040458	  0.218799	  0.040458	
+  0.151742	  0.063227	  0.721805	  0.063227	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00170 RBM6
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.457688	  0.278487	  0.086341	  0.177485	
+  0.860464	  0.015986	  0.015986	  0.107564	
+  0.015986	  0.015986	  0.015986	  0.952043	
+  0.015986	  0.952043	  0.015986	  0.015986	
+  0.015986	  0.952043	  0.015986	  0.015986	
+  0.952043	  0.015986	  0.015986	  0.015986	
+  0.278215	  0.086146	  0.549492	  0.086146	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00056 RBM8A
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.194887	  0.112873	  0.579367	  0.112873	
+  0.020971	  0.669653	  0.020971	  0.288404	
+  0.020971	  0.098901	  0.859157	  0.020971	
+  0.020971	  0.859157	  0.098901	  0.020971	
+  0.020971	  0.098901	  0.859157	  0.020971	
+  0.020971	  0.846311	  0.111747	  0.020971	
+  0.066638	  0.157225	  0.614434	  0.161702	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00152 RBMS1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.107773	  0.107773	  0.193821	  0.590633	
+  0.962901	  0.012366	  0.012366	  0.012366	
+  0.012366	  0.012366	  0.012366	  0.962901	
+  0.962901	  0.012366	  0.012366	  0.012366	
+  0.103668	  0.109818	  0.127039	  0.659474	
+  0.756926	  0.218341	  0.012366	  0.012366	
+  0.012366	  0.589475	  0.385792	  0.012366	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00173 RBMS3
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.173860	  0.173712	  0.083428	  0.568999	
+  0.894004	  0.035332	  0.035332	  0.035332	
+  0.011147	  0.011147	  0.011147	  0.966560	
+  0.966560	  0.011147	  0.011147	  0.011147	
+  0.107702	  0.011147	  0.011147	  0.870004	
+  0.798881	  0.034939	  0.034939	  0.131240	
+  0.148495	  0.246917	  0.365980	  0.238608	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00057 RBMS3
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.582687	  0.202666	  0.107323	  0.107323	
+  0.011713	  0.108040	  0.011713	  0.868533	
+  0.964860	  0.011713	  0.011713	  0.011713	
+  0.011713	  0.011713	  0.011713	  0.964860	
+  0.964860	  0.011713	  0.011713	  0.011713	
+  0.104352	  0.105548	  0.217823	  0.572278	
+  0.524784	  0.356884	  0.059166	  0.059166	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00063 SAMD4A
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.006139	  0.006139	  0.981584	  0.006139	
+  0.006139	  0.981584	  0.006139	  0.006139	
+  0.100156	  0.006139	  0.272748	  0.620957	
+  0.006139	  0.006139	  0.981584	  0.006139	
+  0.006139	  0.006139	  0.981584	  0.006139	
+  0.389694	  0.368339	  0.105647	  0.136320	
+  0.189288	  0.610310	  0.100201	  0.100201	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00064 SART3
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.757020	  0.080993	  0.080993	  0.080993	
+  0.327083	  0.123145	  0.516828	  0.032943	
+  0.973796	  0.008735	  0.008735	  0.008735	
+  0.973796	  0.008735	  0.008735	  0.008735	
+  0.973796	  0.008735	  0.008735	  0.008735	
+  0.772120	  0.120614	  0.098531	  0.008735	
+  0.687405	  0.203937	  0.008735	  0.099923	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00177 SFPQ
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.088446	  0.088446	  0.643731	  0.179376	
+  0.042686	  0.042686	  0.134522	  0.780105	
+  0.483217	  0.019169	  0.390885	  0.106730	
+  0.193813	  0.019169	  0.680607	  0.106411	
+  0.121681	  0.019169	  0.106730	  0.752421	
+  0.041932	  0.041932	  0.591887	  0.324250	
+  0.087225	  0.087225	  0.262023	  0.563527	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00070 SNRNP70
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.289450	  0.105283	  0.499985	  0.105283	
+  0.616182	  0.035202	  0.035202	  0.313415	
+  0.011683	  0.011683	  0.011683	  0.964951	
+  0.011683	  0.964951	  0.011683	  0.011683	
+  0.964951	  0.011683	  0.011683	  0.011683	
+  0.964951	  0.011683	  0.011683	  0.011683	
+  0.129135	  0.035876	  0.799114	  0.035876	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00071 SNRPA
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.264249	  0.080354	  0.080354	  0.575043	
+  0.192828	  0.008811	  0.008811	  0.789549	
+  0.008811	  0.008811	  0.973566	  0.008811	
+  0.008811	  0.973566	  0.008811	  0.008811	
+  0.973566	  0.008811	  0.008811	  0.008811	
+  0.008811	  0.973566	  0.008811	  0.008811	
+  0.626483	  0.057442	  0.258633	  0.057442	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00106 SRSF1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.033006	  0.033006	  0.900981	  0.033006	
+  0.263594	  0.009451	  0.717503	  0.009451	
+  0.890571	  0.009451	  0.009451	  0.090526	
+  0.009451	  0.103968	  0.762920	  0.123661	
+  0.009451	  0.009451	  0.971646	  0.009451	
+  0.762920	  0.009451	  0.218177	  0.009451	
+  0.293264	  0.373623	  0.172300	  0.160813	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00107 SRSF1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.009655	  0.009655	  0.971034	  0.009655	
+  0.186153	  0.009655	  0.794536	  0.009655	
+  0.971034	  0.009655	  0.009655	  0.009655	
+  0.009655	  0.106560	  0.763391	  0.120394	
+  0.009655	  0.009655	  0.971034	  0.009655	
+  0.763391	  0.009655	  0.217298	  0.009655	
+  0.312984	  0.308198	  0.192780	  0.186037	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00108 SRSF1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.032837	  0.032837	  0.901489	  0.032837	
+  0.009259	  0.009259	  0.972223	  0.009259	
+  0.972223	  0.009259	  0.009259	  0.009259	
+  0.009259	  0.197243	  0.686306	  0.107192	
+  0.009259	  0.009259	  0.972223	  0.009259	
+  0.590513	  0.009259	  0.390968	  0.009259	
+  0.360909	  0.190569	  0.367942	  0.080580	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00109 SRSF1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.032205	  0.032205	  0.903386	  0.032205	
+  0.008637	  0.008637	  0.974089	  0.008637	
+  0.974089	  0.008637	  0.008637	  0.008637	
+  0.008637	  0.193047	  0.689072	  0.109244	
+  0.008637	  0.008637	  0.974089	  0.008637	
+  0.591165	  0.008637	  0.391562	  0.008637	
+  0.365815	  0.271333	  0.282574	  0.080278	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00110 SRSF1
+
+letter-probability matrix: alength= 4 w= 8 nsites= 20 E= 0
+  0.328310	  0.407810	  0.131940	  0.131940	
+  0.897566	  0.034145	  0.034145	  0.034145	
+  0.010158	  0.010158	  0.969527	  0.010158	
+  0.010158	  0.010158	  0.969527	  0.010158	
+  0.969527	  0.010158	  0.010158	  0.010158	
+  0.057693	  0.630209	  0.165633	  0.146465	
+  0.649823	  0.188224	  0.080977	  0.080977	
+  0.339071	  0.313698	  0.218962	  0.128269	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00163 SRSF1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.083926	  0.083926	  0.748222	  0.083926	
+  0.032001	  0.032001	  0.903996	  0.032001	
+  0.682893	  0.008570	  0.299968	  0.008570	
+  0.101418	  0.008570	  0.881442	  0.008570	
+  0.079679	  0.079238	  0.832514	  0.008570	
+  0.832374	  0.102827	  0.032399	  0.032399	
+  0.200981	  0.221260	  0.520675	  0.057085	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00088 SRSF10
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.883916	  0.097811	  0.009136	  0.009136	
+  0.285324	  0.009136	  0.696404	  0.009136	
+  0.890193	  0.009136	  0.091534	  0.009136	
+  0.100491	  0.009136	  0.881237	  0.009136	
+  0.696404	  0.009136	  0.285324	  0.009136	
+  0.300576	  0.116336	  0.573951	  0.009136	
+  0.326935	  0.145171	  0.494836	  0.033058	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00089 SRSF10
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.902768	  0.032411	  0.032411	  0.032411	
+  0.180600	  0.008026	  0.803348	  0.008026	
+  0.975921	  0.008026	  0.008026	  0.008026	
+  0.096687	  0.008026	  0.887260	  0.008026	
+  0.882651	  0.008026	  0.101296	  0.008026	
+  0.507476	  0.102833	  0.381665	  0.008026	
+  0.514301	  0.141181	  0.312848	  0.031670	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00090 SRSF10
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.907616	  0.030795	  0.030795	  0.030795	
+  0.006805	  0.006805	  0.979584	  0.006805	
+  0.979584	  0.006805	  0.006805	  0.006805	
+  0.081300	  0.006805	  0.905090	  0.006805	
+  0.979584	  0.006805	  0.006805	  0.006805	
+  0.531303	  0.285004	  0.176888	  0.006805	
+  0.520756	  0.219658	  0.173216	  0.086369	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00019 SRSF10
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.832591	  0.055803	  0.055803	  0.055803	
+  0.096623	  0.009078	  0.885221	  0.009078	
+  0.972766	  0.009078	  0.009078	  0.009078	
+  0.107871	  0.009078	  0.873973	  0.009078	
+  0.880341	  0.101503	  0.009078	  0.009078	
+  0.579942	  0.208383	  0.202596	  0.009078	
+  0.536016	  0.261823	  0.145620	  0.056540	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00072 SRSF2
+
+letter-probability matrix: alength= 4 w= 8 nsites= 20 E= 0
+  0.607398	  0.130867	  0.130867	  0.130867	
+  0.016420	  0.016420	  0.950741	  0.016420	
+  0.016420	  0.016420	  0.950741	  0.016420	
+  0.859715	  0.016420	  0.016420	  0.107446	
+  0.016420	  0.016420	  0.950741	  0.016420	
+  0.582607	  0.016420	  0.105193	  0.295780	
+  0.304848	  0.016420	  0.389710	  0.289023	
+  0.320766	  0.135638	  0.407959	  0.135638	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00073 SRSF7
+
+letter-probability matrix: alength= 4 w= 8 nsites= 20 E= 0
+  0.203253	  0.126507	  0.543734	  0.126507	
+  0.770739	  0.076420	  0.076420	  0.076420	
+  0.008528	  0.974415	  0.008528	  0.008528	
+  0.008528	  0.008528	  0.974415	  0.008528	
+  0.974415	  0.008528	  0.008528	  0.008528	
+  0.008528	  0.974415	  0.008528	  0.008528	
+  0.152686	  0.057165	  0.732985	  0.057165	
+  0.340377	  0.132145	  0.395334	  0.132145	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00074 SRSF9
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.884672	  0.038443	  0.038443	  0.038443	
+  0.100590	  0.015074	  0.682096	  0.202240	
+  0.101697	  0.015074	  0.868154	  0.015074	
+  0.782639	  0.015074	  0.100590	  0.101697	
+  0.195200	  0.207539	  0.496434	  0.100827	
+  0.294161	  0.675690	  0.015074	  0.015074	
+  0.645466	  0.086154	  0.182227	  0.086154	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00067 SRSF9
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.083092	  0.083092	  0.661491	  0.172325	
+  0.037277	  0.037277	  0.888168	  0.037277	
+  0.546573	  0.014074	  0.425279	  0.014074	
+  0.503530	  0.110572	  0.014074	  0.371824	
+  0.014074	  0.014074	  0.957778	  0.014074	
+  0.091567	  0.242354	  0.652005	  0.014074	
+  0.690610	  0.232383	  0.038504	  0.038504	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00076 TARDBP
+
+letter-probability matrix: alength= 4 w= 8 nsites= 20 E= 0
+  0.323700	  0.129601	  0.222720	  0.323978	
+  0.010278	  0.010278	  0.969165	  0.010278	
+  0.782535	  0.010278	  0.108149	  0.099037	
+  0.969165	  0.010278	  0.010278	  0.010278	
+  0.010278	  0.010278	  0.010278	  0.969165	
+  0.010278	  0.010278	  0.969165	  0.010278	
+  0.637315	  0.058422	  0.148503	  0.155761	
+  0.310646	  0.130681	  0.334147	  0.224525	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00165 TIA1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.217648	  0.125438	  0.034310	  0.622603	
+  0.010196	  0.010196	  0.010196	  0.969413	
+  0.099246	  0.010196	  0.010196	  0.880362	
+  0.010196	  0.010196	  0.010196	  0.969413	
+  0.010196	  0.010196	  0.010196	  0.969413	
+  0.010196	  0.010196	  0.106244	  0.873365	
+  0.082183	  0.471503	  0.184047	  0.262267	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00077 TIA1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.150245	  0.061963	  0.061963	  0.725829	
+  0.014801	  0.014801	  0.014801	  0.955596	
+  0.014801	  0.014801	  0.014801	  0.955596	
+  0.014801	  0.014801	  0.014801	  0.955596	
+  0.014801	  0.014801	  0.014801	  0.955596	
+  0.014801	  0.206829	  0.204773	  0.573597	
+  0.084299	  0.084299	  0.566467	  0.264935	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00075 TUT1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.199425	  0.575805	  0.112385	  0.112385	
+  0.213061	  0.112385	  0.562169	  0.112385	
+  0.866619	  0.044460	  0.044460	  0.044460	
+  0.021730	  0.021730	  0.021730	  0.934811	
+  0.934811	  0.021730	  0.021730	  0.021730	
+  0.067640	  0.707760	  0.067640	  0.156959	
+  0.090343	  0.090343	  0.090343	  0.728970	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00079 U2AF2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.134654	  0.130356	  0.053414	  0.681576	
+  0.005759	  0.005759	  0.005759	  0.982722	
+  0.005759	  0.005759	  0.005759	  0.982722	
+  0.005759	  0.005759	  0.005759	  0.982722	
+  0.005759	  0.098041	  0.005759	  0.890440	
+  0.005759	  0.327792	  0.005759	  0.660689	
+  0.052968	  0.717499	  0.052968	  0.176564	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00116 YBX1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.906349	  0.031217	  0.031217	  0.031217	
+  0.753417	  0.231326	  0.007629	  0.007629	
+  0.007629	  0.977113	  0.007629	  0.007629	
+  0.977113	  0.007629	  0.007629	  0.007629	
+  0.007629	  0.192342	  0.007629	  0.792400	
+  0.007629	  0.977113	  0.007629	  0.007629	
+  0.546033	  0.058173	  0.230546	  0.165248	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00083 YBX1
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.979863	  0.006712	  0.006712	  0.006712	
+  0.829912	  0.156663	  0.006712	  0.006712	
+  0.006712	  0.979863	  0.006712	  0.006712	
+  0.979863	  0.006712	  0.006712	  0.006712	
+  0.077264	  0.133263	  0.006712	  0.782761	
+  0.006712	  0.979863	  0.006712	  0.006712	
+  0.492456	  0.153980	  0.171615	  0.181949	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00084 YBX2
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.881093	  0.009666	  0.099576	  0.009666	
+  0.881093	  0.009666	  0.099576	  0.009666	
+  0.009666	  0.881093	  0.099576	  0.009666	
+  0.971003	  0.009666	  0.009666	  0.009666	
+  0.497568	  0.009666	  0.099576	  0.393191	
+  0.009666	  0.971003	  0.009666	  0.009666	
+  0.328968	  0.105498	  0.271540	  0.293994	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00085 ZC3H10
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.099214	  0.273471	  0.528102	  0.099214	
+  0.135667	  0.572737	  0.237932	  0.053664	
+  0.821282	  0.118722	  0.029998	  0.029998	
+  0.005874	  0.005874	  0.982378	  0.005874	
+  0.005874	  0.982378	  0.005874	  0.005874	
+  0.030671	  0.030671	  0.907987	  0.030671	
+  0.216884	  0.564327	  0.109394	  0.109394	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00086 ZC3H14
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.017519	  0.017519	  0.101852	  0.863110	
+  0.017519	  0.017519	  0.017519	  0.947443	
+  0.111033	  0.017519	  0.115479	  0.755968	
+  0.202325	  0.114996	  0.477455	  0.205224	
+  0.017519	  0.017519	  0.190051	  0.774911	
+  0.017519	  0.017519	  0.111710	  0.853252	
+  0.040588	  0.040588	  0.040588	  0.878235	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00087 ZCRB1
+
+letter-probability matrix: alength= 4 w= 8 nsites= 20 E= 0
+  0.123627	  0.123627	  0.629120	  0.123627	
+  0.636224	  0.031996	  0.213910	  0.117871	
+  0.492981	  0.302091	  0.008036	  0.196892	
+  0.008036	  0.008036	  0.008036	  0.975893	
+  0.008036	  0.008036	  0.008036	  0.975893	
+  0.975893	  0.008036	  0.008036	  0.008036	
+  0.975893	  0.008036	  0.008036	  0.008036	
+  0.134901	  0.134901	  0.414189	  0.316009	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
+MOTIF RNCMPT00164 ZNF638
+
+letter-probability matrix: alength= 4 w= 7 nsites= 20 E= 0
+  0.090768	  0.180152	  0.178182	  0.550898	
+  0.019924	  0.019924	  0.854569	  0.105583	
+  0.019924	  0.019924	  0.019924	  0.940228	
+  0.019924	  0.019924	  0.129433	  0.830720	
+  0.019924	  0.572493	  0.387660	  0.019924	
+  0.019924	  0.019924	  0.656335	  0.303817	
+  0.066065	  0.066065	  0.152230	  0.715640	
+
+URL http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya
+
