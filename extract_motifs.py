@@ -602,16 +602,16 @@ def get_motif_fig(filter_weights, filter_outs, out_dir, seqs, sample_i = 0):
     #################################################################
     # run tomtom #-evalue 0.01 
     if data_type=='RNA':
-        subprocess.call('/s/chopin/a/grad/amenit/Downloads/meme-5.0.3/src/tomtom -dist pearson -thresh 0.05 -oc %s/tomtom %s/filters_meme.txt %s' % (out_dir, out_dir, 'motifs_database/Ray2013_rbp_RNA.meme'), shell=True)
+        subprocess.call(tomtom_dir+' -dist pearson -thresh 0.05 -oc %s/tomtom %s/filters_meme.txt %s' % (out_dir, out_dir, 'motifs_database/Ray2013_rbp_RNA.meme'), shell=True)
     else:
-        subprocess.call('/s/chopin/a/grad/amenit/Downloads/meme-5.0.3/src/tomtom -dist pearson -thresh 0.05 -oc %s/tomtom %s/filters_meme.txt %s' % (out_dir, out_dir, 'motifs_database/Jaspar.meme'), shell=True)
+        subprocess.call(tomtom_dir+' -dist pearson -thresh 0.05 -oc %s/tomtom %s/filters_meme.txt %s' % (out_dir, out_dir, 'motifs_database/Jaspar.meme'), shell=True)
     subprocess.call('cp %s/tomtom/tomtom.tsv %s/tomtom/tomtom.txt' %(out_dir, out_dir), shell=True)
     
     # read in annotations
     if data_type=='RNA':
-        filter_names = name_filters(num_filters, '%s/tomtom/tomtom.txt'%out_dir, 'Ray2013_rbp_RNA.meme')
+        filter_names = name_filters(num_filters, '%s/tomtom/tomtom.txt'%out_dir, 'motifs_database/Ray2013_rbp_RNA.meme')
     else:
-        filter_names = name_filters(num_filters, '%s/tomtom/tomtom.txt'%out_dir, 'Jaspar.meme')
+        filter_names = name_filters(num_filters, '%s/tomtom/tomtom.txt'%out_dir, 'motifs_database/Jaspar.meme')
     #################################################################
     # print a table of information
     #################################################################
@@ -660,17 +660,19 @@ def get_feature(model, X_batch, index):
     
     return activations
 
-def get_motif(filter_weights_old, filter_outs, testing, y = [], index = 0, dir1 = 'motifs/',embd=True,data='DNA',kmer=3,s=1):
+def get_motif(filter_weights_old, filter_outs, testing, y = [], index = 0, dir1 = 'motifs/',embd=True,data='DNA',kmer=3,s=1,tomtom='meme-5.0.3/src/tomtom'):
     #sfilter = model.layers[0].layers[index].layers[0].get_weights()
     #filter_weights_old = np.transpose(sfilter[0][:,0,:,:], (2, 1, 0)) #sfilter[0][:,0,:,:]
     global embedding
     global data_type
     global kmer_len
     global stride
+    global tomtom_dir
     embedding=embd
     data_type=data
     kmer_len=kmer
     stride=s
+    tomtom_dir=tomtom
     print (filter_weights_old.shape)
     #pdb.set_trace()
     filter_weights = []

@@ -776,7 +776,7 @@ def detect_motifs(model, test_seqs, X_train, output_dir):
 	layer1_para=model.wConv.data.cpu().numpy()
 
 	filter_outs = model.layer1out(X_train)
-	get_motif(layer1_para, filter_outs, test_seqs, dir1 = output_dir,embd=embedding,data=data_type,kmer=kmer_len,s=stride)
+	get_motif(layer1_para, filter_outs, test_seqs, dir1 = output_dir,embd=embedding,data=data_type,kmer=kmer_len,s=stride,tomtom=tomtom_dir)
 
 def test_predict():
 	
@@ -818,7 +818,6 @@ def test_predict():
 ######### Global variables #########
 embedding=False
 conv=True
-Deepvonv=False
 RNN=False
 RNN_type='BiLSTM'
 
@@ -846,7 +845,6 @@ motiflen=24
 def run_deepRAM(parser):
 	global embedding
 	global conv
-	global Deepvonv
 	global RNN
 	global RNN_type
 	global kmer_len
@@ -860,6 +858,7 @@ def run_deepRAM(parser):
 	global out_file
 	global motif
 	global motif_dir
+	global tomtom_dir
 	global data_type
 	global conv_layers
 	global RNN_layers
@@ -875,10 +874,10 @@ def run_deepRAM(parser):
 	out_file = parser.out_file
 	motif=parser.motif
 	motif_dir=parser.motif_dir
+	tomtom_dir=parser.tomtom_dir
 	evaluate_performance=parser.evaluate_performance
 	embedding = parser.Embedding
 	conv = parser.Conv
-	Deepvonv = parser.Deepvonv
 	RNN = parser.RNN
 	RNN_type = parser.RNN_type
 	dilation=parser.dilation
@@ -922,29 +921,33 @@ def run_deepRAM(parser):
                       
 def parse_arguments(parser):
 ## data
-    parser.add_argument('--train_data', type=str, default='trainseq.fa.gz',
+    parser.add_argument('--train_data', type=str, default='train.fa.gz',
                         help='path for training data with format: sequence 	label')
     
     parser.add_argument('--test_data', type=str, default='seq.fa.gz',
-                        help='path for test data with format one column containing test sequences')
+                        help='path for test data containing test sequences with or without label')
     parser.add_argument('--data_type', type=str, default='DNA',
                         help='type of data: DNA or RNA ')
 
 ## model
-    parser.add_argument('--train', type=bool, default=True, help='use this option for automatic calibration and training model using train_data')
+    parser.add_argument('--train', type=bool, default=True, help='use this option for automatic calibration, training model using train_data and predict labels for test_data')
     parser.add_argument('--predict_only', type=bool, default=False, help='use this option to load pretrained model (found in model_path) and use it to predict test sequences (train will be set to False).')
-    parser.add_argument('--evaluate_performance', type=bool, default=True, help='use this option to calculate AUC on tes_data if you have labels for test data. If True, test_data should be format: sequence label')
+    parser.add_argument('--evaluate_performance', type=bool, default=True, help='use this option to calculate AUC on test_data. If True, test_data should be format: sequence label')
     
     parser.add_argument('--models_dir', type=str, default='models/',
                         help='The directory to save the trained models for future prediction including best hyperparameters and embedding model')
-    parser.add_argument('--model_path', type=str, default='DeepBind-E_2.pkl',
+    parser.add_argument('--model_path', type=str, default='DeepBind.pkl',
                         help='If train is set to True, This path will be used to save your best model. If train is set to False, this path should have the model that you want to use for prediction ')
+    
+    parser.add_argument('--motif', type=bool, default=True, help='use this option to generate motif logos')
+
     parser.add_argument('--motif_dir', type=str, default='motifs',
                         help='directory to save motifs logos ')
+    parser.add_argument('--tomtom_dir', type=str, default='motifs',
+                        help='directory of TOMTOM, i.e:meme-5.0.3/src/tomtom')
 
     parser.add_argument('--out_file', type=str, default='prediction.txt',
                         help='The output file used to store the prediction probability of testing data')
-    parser.add_argument('--motif', type=bool, default=True, help='use this option to generate motif logos')
 
 
 ## architecture
@@ -952,7 +955,6 @@ def parse_arguments(parser):
 
     parser.add_argument('--Conv', type=bool, default=True, help='Use conv layer: True or False')
 
-    parser.add_argument('--Deepvonv', type=bool, default=False, help='Use Deep conv layer (3 conv layers instead of just 1 conv layer): True or False')
 
     parser.add_argument('--RNN', type=bool, default=True, help='Use RNN layer: True or False')
     
@@ -961,17 +963,18 @@ def parse_arguments(parser):
   
 ## Embedding 
     
-    parser.add_argument('--kmer_len', type=int, default='3', help='length of kmer used for embedding layer')
+    parser.add_argument('--kmer_len', type=int, default='3', help='length of kmer used for embedding layer, default=3')
     
-    parser.add_argument('--stride', type=int, default='1', help='stride s used for embedding layer')
+    parser.add_argument('--stride', type=int, default='1', help='stride used for embedding layer, default=1')
     
     parser.add_argument('--word2vec_train', type=bool, default=True, help='set it to False if you have already trained word2vec model. If you set it to False, you need to specify the path for word2vec model in word2vec_model argument.')
     
-    parser.add_argument('--word2vec_model', type=str, default='word2vecfinale8', help='If word2vec_train is set to True, This path will be used to save your word2vec model. If word2vec_train is set to False, this path should have the word2vec model that you want to use for embedding layer')
+    parser.add_argument('--word2vec_model', type=str, default='word2vec', help='If word2vec_train is set to True, This path will be used to save your word2vec model. If word2vec_train is set to False, this path should have the word2vec model that you want to use for embedding layer')
 
     parser.add_argument('--conv_layers', type=int, default='1', help='number of convolutional modules')
     parser.add_argument('--dilation', type=int, default='1', help='the spacing between kernel elements for convolutional modules (except the first convolutional module)')
     parser.add_argument('--RNN_layers', type=int, default='1', help='number of RNN layers')
+    
     args = parser.parse_args()
 
     return args
