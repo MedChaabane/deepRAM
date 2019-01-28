@@ -1,5 +1,5 @@
 # DeepRAM
-![pipeline](https://github.com/MedChaabane/deepRAM/blob/master/CSU-Ram.jpg= 250x250)
+![pipeline](https://github.com/MedChaabane/deepRAM/blob/master/CSU-Ram.jpg = 250x250)
 
 we proposed an end-to-end deep learning toolkit, deepRAM, for predicting protein binding sites and motifs. It helps users run experiments using many state-of-the-art methods and addresses the challenge of selecting model parameters in deep learning models using a fully automatic model selection strategy. This helps avoid hand-tuning and thus removes any bias in running experiments, making it user friendly without losing its flexibility. While it was designed with ChIP-seq and CLIP-seq data in mind, it can be used for any DNA/RNA sequence binary classification problem.
 
