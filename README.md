@@ -1,4 +1,4 @@
-# DeepRAM
+# deepRAM
 
    <img src="https://github.com/MedChaabane/deepRAM/blob/master/CSU-Ram.jpg" width="150">
 
