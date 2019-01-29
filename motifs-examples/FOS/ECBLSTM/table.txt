@@ -1,0 +1,17 @@
+               consensus  annotation     ic    mean     std
+0             AACCATNNAC           .   4.81  0.8803  1.6739
+1             TTCTGAAAAC           .   6.51  0.8666  1.6294
+2             ANAGGCGCCT           .   7.91  0.8819  1.6736
+3             TTACCANACT           .   4.47  0.8978  1.6992
+4             GCTCGCTCTT           .   3.83  0.8827  1.6677
+5             NTGGNTNCNC        EGR1   5.04  0.8862  1.6818
+6             NCNNNCGGTG         SP4   5.32  0.8839  1.6714
+7             ACCTGCNCCC           .   4.41  0.8928  1.6800
+8             GCCATTTTAT           .   4.04  0.8862  1.6938
+9             CGTGACTAAA        JDP2   8.53  0.8668  1.6528
+10            GGTGCCNGTT           .   6.26  0.8897  1.7037
+11            ANNCGCTCAT           .   3.51  0.8939  1.7164
+12            NGCCCGCGAA           .   4.20  0.8924  1.6703
+13            NTGCCAAACC           .   5.72  0.9122  1.7129
+14            NNANAGANNN           .   0.00  0.8954  1.6806
+15            ACTCTCANCT           .   3.10  0.8819  1.6629
