@@ -932,12 +932,12 @@ def parse_arguments(parser):
 ## model
     parser.add_argument('--train', type=bool, default=True, help='use this option for automatic calibration, training model using train_data and predict labels for test_data')
     parser.add_argument('--predict_only', type=bool, default=False, help='use this option to load pretrained model (found in model_path) and use it to predict test sequences (train will be set to False).')
-    parser.add_argument('--evaluate_performance', type=bool, default=True, help='use this option to calculate AUC on test_data. If True, test_data should be format: sequence label')
+    parser.add_argument('--evaluate_performance', type=bool, default=False, help='use this option to calculate AUC on test_data. If True, test_data should be format: sequence label')
     
     parser.add_argument('--models_dir', type=str, default='models/',
                         help='The directory to save the trained models for future prediction including best hyperparameters and embedding model')
     parser.add_argument('--model_path', type=str, default='DeepBind.pkl',
-                        help='If train is set to True, This path will be used to save your best model. If train is set to False, this path should have the model that you want to use for prediction ')
+                        help='If train is set to True, This path will be used to save your best model. If train is set to False, this path should have the model that you want to use for prediction. default: model.pkl')
     
     parser.add_argument('--motif', type=bool, default=True, help='use this option to generate motif logos')
 
