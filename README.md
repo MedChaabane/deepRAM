@@ -107,7 +107,7 @@ cd deepRAM
 
 2) Install required packages 
 ```bash
-pip3 install -r Prerequisites.txt
+pip3 install -r Prerequisites
 ```
 3) Install deepRAM
 ```bash
