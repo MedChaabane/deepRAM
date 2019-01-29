@@ -13,7 +13,7 @@ setup(name='deepRAM',
       url='https://github.com/MedChaabane/deepRAM',
       packages=find_packages(),
       install_requires=[
-  
+            'torch',
           'numpy>=1.11.2',
           'sklearn',
           'gensim',
