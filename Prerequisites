@@ -1,4 +1,3 @@
 numpy>=1.11.2
 sklearn
 gensim
-pytorch
