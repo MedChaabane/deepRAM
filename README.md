@@ -6,14 +6,14 @@ deepRAM is an end-to-end deep learning toolkit, deepRAM, for predicting protein 
 
 deepRAM allows users the flexibility to choose a deep learning model by selecting its different components:  input sequence representation (one-hot or k-mer embedding), whether to use a CNN and how many layers, and whether to use an RNN, and the number of layers and their type. For CNNs, the user can choose to use dilated convolution as well.
  <br><br>
-# Dependency <br>
+## Dependency <br>
 python 3.6 <br>
 <a href=https://pytorch.org/>PyTorch 1.0 library </a> (Deep learning library) <br>
 <a href=https://github.com/scikit-learn/scikit-learn>sklearn</a> (Machine learning library)<br>
 <a href=https://anaconda.org/anaconda/gensim>gensim</a> (library used to train word2vec algorithm) <br>
 <a href=https://anaconda.org/anaconda/numpy>numpy</a> <br>
 
-# Usage
+## Usage
 
 ```bash 
 usage: deepRAM.py [-h] [--train_data TRAIN_DATA] [--test_data TEST_DATA]
@@ -92,6 +92,6 @@ optional arguments:
 
 ```
 
-# Motifs identification and visualization
+## Motifs identification and visualization
 
 You need install <a href=http://weblogo.berkeley.edu/> WebLogo </a> and TOMTOM in MEME Suite <a href=http://meme-suite.org/doc/download.html?man_type=web/> MEME Suite </a> to search identifyed motifs against known motifs of RBPs and Transcription Factors. 
