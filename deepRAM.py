@@ -939,7 +939,7 @@ def parse_arguments(parser):
     parser.add_argument('--model_path', type=str, default='DeepBind.pkl',
                         help='If train is set to True, This path will be used to save your best model. If train is set to False, this path should have the model that you want to use for prediction. default: model.pkl')
     
-    parser.add_argument('--motif', type=bool, default=True, help='use this option to generate motif logos')
+    parser.add_argument('--motif', type=bool, default=False, help='use this option to generate motif logos')
 
     parser.add_argument('--motif_dir', type=str, default='motifs',
                         help='directory to save motifs logos ')
@@ -956,7 +956,7 @@ def parse_arguments(parser):
     parser.add_argument('--Conv', type=bool, default=True, help='Use conv layer: True or False')
 
 
-    parser.add_argument('--RNN', type=bool, default=True, help='Use RNN layer: True or False')
+    parser.add_argument('--RNN', type=bool, default=False, help='Use RNN layer: True or False')
     
     parser.add_argument('--RNN_type', type=str, default='BiLSTM', help='RNN type: LSTM or GRU or BiLSTM or BiGRU')
     
