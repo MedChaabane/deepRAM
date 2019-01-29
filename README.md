@@ -95,3 +95,20 @@ optional arguments:
 ## Motifs identification and visualization
 
 You need to install <a href=http://weblogo.berkeley.edu/> WebLogo </a> and TOMTOM in <a href=http://meme-suite.org> MEME Suite </a> to match identifyed motifs with known motifs of Transcription Factors and RBPs. Read documentations about installation and usage.
+
+## Installation
+1 Download deepRAM
+```bash
+git clone https://github.com/MedChaabane/deepRAM.git
+
+cd deepRAM
+```
+
+2 Install required packages 
+```bash
+pip3 install -r Prerequisites.txt
+```
+3 Install deepRAM
+```bash
+python setup.py install
+```
