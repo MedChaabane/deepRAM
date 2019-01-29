@@ -8,7 +8,7 @@ deepRAM allows users the flexibility to choose a deep learning model by selectin
  <br><br>
 ## Dependency <br>
 We recommend to use [Anaconda 3](https://www.anaconda.com/download/) platform. 
--  python 3.6 <br>
+-  <a href=https://www.python.org/downloads/>Python 3.6 </a> <br>
 -  <a href=https://pytorch.org/>PyTorch 1.0 library </a> (Deep learning library) <br>
 -  <a href=https://github.com/scikit-learn/scikit-learn>sklearn</a> (Machine learning library)<br>
 -  <a href=https://anaconda.org/anaconda/gensim>gensim</a> (library used to train word2vec algorithm) <br>
@@ -98,18 +98,18 @@ optional arguments:
 You need to install <a href=http://weblogo.berkeley.edu/> WebLogo </a> and TOMTOM in <a href=http://meme-suite.org> MEME Suite </a> to match identifyed motifs with known motifs of Transcription Factors and RBPs. Read documentations about installation and usage.
 
 ## Installation
-1 Download deepRAM
+1) Download deepRAM
 ```bash
 git clone https://github.com/MedChaabane/deepRAM.git
 
 cd deepRAM
 ```
 
-2 Install required packages 
+2) Install required packages 
 ```bash
 pip3 install -r Prerequisites.txt
 ```
-3 Install deepRAM
+3) Install deepRAM
 ```bash
 python setup.py install
 ```
