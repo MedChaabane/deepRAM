@@ -121,3 +121,5 @@ python3 preprocess_CLIP.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/
 ```bash
 python preprocess_CLIP.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/30000/test_sample_0/sequences.fa.gz --output CLIP_test.gz
 ```
+#### train DeepBind 
+
