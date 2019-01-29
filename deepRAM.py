@@ -980,6 +980,6 @@ def parse_arguments(parser):
     return args
     
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='sequence specificities prediction using deep learning approach')
+    parser = argparse.ArgumentParser(description='sequence specificities prediction of DNA- and RNA-binding proteins using deep learning approach')
     args = parse_arguments(parser)
     run_deepRAM(args)
