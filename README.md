@@ -2,7 +2,7 @@
 
    <img src="https://github.com/MedChaabane/deepRAM/blob/master/CSU-Ram.jpg" width="150">
 
-we proposed an end-to-end deep learning toolkit, deepRAM, for predicting protein binding sites and motifs. It helps users run experiments using many state-of-the-art methods and addresses the challenge of selecting model parameters in deep learning models using a fully automatic model selection strategy. This helps avoid hand-tuning and thus removes any bias in running experiments, making it user friendly without losing its flexibility. While it was designed with ChIP-seq and CLIP-seq data in mind, it can be used for any DNA/RNA sequence binary classification problem.
+deepRAM is an end-to-end deep learning toolkit, deepRAM, for predicting protein binding sites and motifs. It helps users run experiments using many state-of-the-art deep learning methods and addresses the challenge of selecting model parameters in deep learning models using a fully automatic model selection strategy. This helps avoid hand-tuning and thus removes any bias in running experiments, making it user friendly without losing its flexibility. While it was designed with ChIP-seq and CLIP-seq data in mind, it can be used for any DNA/RNA sequence binary classification problem.
 
 deepRAM allows users the flexibility to choose a deep learning model by selecting its different components:  input sequence representation (one-hot or k-mer embedding), whether to use a CNN and how many layers, and whether to use an RNN, and the number of layers and their type. For CNNs, the user can choose to use dilated convolution as well.
  <br><br>
@@ -10,7 +10,7 @@ deepRAM allows users the flexibility to choose a deep learning model by selectin
 python 3.6 <br>
 <a href=https://pytorch.org/>PyTorch 1.0 library </a> (Deep learning library) <br>
 <a href=https://github.com/scikit-learn/scikit-learn>sklearn</a> (Machine learning library)<br>
-<a href=https://anaconda.org/anaconda/gensim>gensim</a>, install it using "pip install gensim" <br>
+<a href=https://anaconda.org/anaconda/gensim>gensim</a> (library used to train word2vec algorithm) <br>
 <a href=https://anaconda.org/anaconda/numpy>numpy</a> <br>
 
 # Usage
