@@ -7,6 +7,7 @@ deepRAM is an end-to-end deep learning toolkit for predicting protein binding si
 deepRAM allows users the flexibility to choose a deep learning model by selecting its different components:  input sequence representation (one-hot or k-mer embedding), whether to use a CNN and how many layers, and whether to use an RNN, and the number of layers and their type. For CNNs, the user can choose to use dilated convolution as well.
  <br><br>
 ## Dependency <br>
+We recommend to use [Anaconda 3](https://www.anaconda.com/download/) platform. 
 python 3.6 <br>
 <a href=https://pytorch.org/>PyTorch 1.0 library </a> (Deep learning library) <br>
 <a href=https://github.com/scikit-learn/scikit-learn>sklearn</a> (Machine learning library)<br>
