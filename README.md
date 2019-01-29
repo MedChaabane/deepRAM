@@ -125,7 +125,7 @@ python preprocess_CLIP.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/3
 ```
 python deepRAM.py --train_data CLIP_train.gz --test_data CLIP_test.gz --data_type RNA --train True --evaluate_performance True --model_path DeepBind.pkl --out_file prediction.txt --Embedding False --Conv True --RNN False --conv_layers 1 
 ```
-#### motifs visualization and matching them with known motifs 
+#### visualizating motifs and matching them with known motifs 
 ```
 python deepRAM.py --test_data CLIP_test.gz --data_type RNA --predict_only True --model_path DeepBind.pkl --motif True --motif_dir motifs --tomtom_dir meme-5.0.3/src/tomtom --out_file prediction.txt --Embedding False --Conv True --RNN False --conv_layers 1
 ```
