@@ -121,5 +121,8 @@ python3 preprocess_CLIP.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/
 ```bash
 python preprocess_CLIP.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/30000/test_sample_0/sequences.fa.gz --output CLIP_test.gz
 ```
-#### train DeepBind 
-
+#### train DeepBind architecture with CLIP_train.gz and evaluate performance on CLIP_test.gz
+```
+python deepRAM.py --train_data CLIP_train.gz --test_data CLIP_test.gz --data_type RNA --train True --evaluate_performance True --model_path DeepBind.pkl --out_file prediction.txt --Embedding False --Conv True --RNN False --conv_layers 1 
+```
+#### motifs visualization and matching them with known motifs 
