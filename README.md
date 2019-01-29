@@ -13,7 +13,7 @@ python 3.6 <br>
 <a href=https://anaconda.org/anaconda/gensim>gensim</a>, install it using "pip install gensim" <br>
 <a href=https://anaconda.org/anaconda/numpy>numpy</a> <br>
 
-## Usage
+# Usage
 
 ```bash 
 usage: deepRAM.py [-h] [--train_data TRAIN_DATA] [--test_data TEST_DATA]
