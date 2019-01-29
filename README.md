@@ -31,7 +31,7 @@ usage: deepRAM.py [-h] [--train_data TRAIN_DATA] [--test_data TEST_DATA]
                   [--conv_layers CONV_LAYERS] [--dilation DILATION]
                   [--RNN_layers RNN_LAYERS]
 
-sequence specificities prediction of DNA- and RNA-binding proteins using deep learning approach
+sequence specificities prediction using deep learning approach
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -41,56 +41,61 @@ optional arguments:
                         path for test data containing test sequences with or
                         without label
   --data_type DATA_TYPE
-                        type of data: DNA or RNA
+                        type of data: DNA or RNA. default: DNA
   --train TRAIN         use this option for automatic calibration, training
                         model using train_data and predict labels for
-                        test_data
+                        test_data. default: True
   --predict_only PREDICT_ONLY
                         use this option to load pretrained model (found in
                         model_path) and use it to predict test sequences
-                        (train will be set to False).
+                        (train will be set to False). default: False
   --evaluate_performance EVALUATE_PERFORMANCE
                         use this option to calculate AUC on test_data. If
-                        True, test_data should be format: sequence label
+                        True, test_data should be format: sequence label.
+                        default: False
   --models_dir MODELS_DIR
                         The directory to save the trained models for future
                         prediction including best hyperparameters and
-                        embedding model
+                        embedding model. default: models/
   --model_path MODEL_PATH
                         If train is set to True, This path will be used to
                         save your best model. If train is set to False, this
                         path should have the model that you want to use for
-                        prediction
-  --motif MOTIF         use this option to generate motif logos
+                        prediction. default: BestModel.pkl
+  --motif MOTIF         use this option to generate motif logos. default:
+                        False
   --motif_dir MOTIF_DIR
-                        directory to save motifs logos
+                        directory to save motifs logos. default: motifs
   --tomtom_dir TOMTOM_DIR
                         directory of TOMTOM, i.e:meme-5.0.3/src/tomtom
   --out_file OUT_FILE   The output file used to store the prediction
                         probability of testing data
   --Embedding EMBEDDING
-                        Use embedding layer: True or False
-  --Conv CONV           Use conv layer: True or False
-  --RNN RNN             Use RNN layer: True or False
-  --RNN_type RNN_TYPE   RNN type: LSTM or GRU or BiLSTM or BiGRU
-  --kmer_len KMER_LEN   length of kmer used for embedding layer, default=3
-  --stride STRIDE       stride used for embedding layer, default=1
+                        Use embedding layer: True or False. default: False
+  --Conv CONV           Use conv layer: True or False. default: True
+  --RNN RNN             Use RNN layer: True or False. default: False
+  --RNN_type RNN_TYPE   RNN type: LSTM or GRU or BiLSTM or BiGRU. default:
+                        BiLSTM
+  --kmer_len KMER_LEN   length of kmer used for embedding layer, default= 3
+  --stride STRIDE       stride used for embedding layer, default= 1
   --word2vec_train WORD2VEC_TRAIN
                         set it to False if you have already trained word2vec
                         model. If you set it to False, you need to specify the
                         path for word2vec model in word2vec_model argument.
+                        default: True
   --word2vec_model WORD2VEC_MODEL
                         If word2vec_train is set to True, This path will be
                         used to save your word2vec model. If word2vec_train is
                         set to False, this path should have the word2vec model
-                        that you want to use for embedding layer
+                        that you want to use for embedding layer. default:
+                        word2vec
   --conv_layers CONV_LAYERS
-                        number of convolutional modules
+                        number of convolutional modules. default= 1
   --dilation DILATION   the spacing between kernel elements for convolutional
-                        modules (except the first convolutional module)
+                        modules (except the first convolutional module).
+                        default= 1
   --RNN_layers RNN_LAYERS
-                        number of RNN layers
-
+                        number of RNN layers. default= 1
 ```
 
 ## Motifs identification and visualization
