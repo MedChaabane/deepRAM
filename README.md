@@ -11,8 +11,8 @@ We recommend to use [Anaconda 3](https://www.anaconda.com/download/) platform.
 python 3.6 <br>
 -  <a href=https://pytorch.org/>PyTorch 1.0 library </a> (Deep learning library) <br>
 -  <a href=https://github.com/scikit-learn/scikit-learn>sklearn</a> (Machine learning library)<br>
-<a href=https://anaconda.org/anaconda/gensim>gensim</a> (library used to train word2vec algorithm) <br>
-<a href=https://anaconda.org/anaconda/numpy>numpy</a> <br>
+-  <a href=https://anaconda.org/anaconda/gensim>gensim</a> (library used to train word2vec algorithm) <br>
+-  <a href=https://anaconda.org/anaconda/numpy>numpy</a> <br>
 
 ## Usage
 
