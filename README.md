@@ -94,4 +94,4 @@ optional arguments:
 
 ## Motifs identification and visualization
 
-You need to install <a href=http://weblogo.berkeley.edu/> WebLogo </a> and TOMTOM in <a href=http://meme-suite.org/doc/download.html?man_type=web/> MEME Suite </a> to match identifyed motifs with known motifs of Transcription Factors and RBPs. 
+You need to install <a href=http://weblogo.berkeley.edu/> WebLogo </a> and TOMTOM in <http://meme-suite.org/doc/install.html?man_type=web> MEME Suite </a> to match identifyed motifs with known motifs of Transcription Factors and RBPs. 
