@@ -20,7 +20,7 @@ import gensim
 import multiprocessing
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
-from seq_motifs import get_motif
+from extract_motifs import get_motif
 import torch.nn as nn
 import os
 import argparse
@@ -484,7 +484,7 @@ def Load_Data(train_file,test_file):
 		#### word2vect model training
 
 
-		  
+		print(embedding)
 		if embedding and word2vect_train:
 			print('training word2vec model')
 			document= Gen_Words(sequences,kmer_len,stride)
@@ -762,7 +762,11 @@ def Test_Motifs():
 			if data_type=='RNA':
 				seqRNA=[sequ.replace('T','U') for sequ in seqRNA]
 			detect_motifs(model,seqRNA , data, motif_dir)
-		
+
+def boolean_string(s):
+    if s not in {'False', 'True'}:
+        raise ValueError('Not a valid boolean string')
+    return s == 'True'
 def detect_motifs(model, test_seqs, X_train, output_dir):
 
 
@@ -887,6 +891,7 @@ def run_deepRAM(parser):
 	word2vec_model = parser.word2vec_model
 	conv_layers=parser.conv_layers
 	RNN_layers=parser.RNN_layers
+	print(embedding)
 	if not os.path.exists(model_dir):
 		  os.makedirs(model_dir)
 
@@ -913,7 +918,7 @@ def run_deepRAM(parser):
 		  print('Load Data')
 		  Load_Data(train_data,test_data)
 		  print('Predicting sequence specificities')
-		  #model=test_predict()
+		  model=test_predict()
 	if motif:
 		  Test_Motifs()
 			  
@@ -930,16 +935,16 @@ def parse_arguments(parser):
                         help='type of data: DNA or RNA ')
 
 ## model
-    parser.add_argument('--train', type=bool, default=True, help='use this option for automatic calibration, training model using train_data and predict labels for test_data')
-    parser.add_argument('--predict_only', type=bool, default=False, help='use this option to load pretrained model (found in model_path) and use it to predict test sequences (train will be set to False).')
-    parser.add_argument('--evaluate_performance', type=bool, default=False, help='use this option to calculate AUC on test_data. If True, test_data should be format: sequence label')
+    parser.add_argument('--train', type=boolean_string, default=True, help='use this option for automatic calibration, training model using train_data and predict labels for test_data')
+    parser.add_argument('--predict_only', type=boolean_string, default=False, help='use this option to load pretrained model (found in model_path) and use it to predict test sequences (train will be set to False).')
+    parser.add_argument('--evaluate_performance', type=boolean_string, default=True, help='use this option to calculate AUC on test_data. If True, test_data should be format: sequence label')
     
     parser.add_argument('--models_dir', type=str, default='models/',
                         help='The directory to save the trained models for future prediction including best hyperparameters and embedding model')
     parser.add_argument('--model_path', type=str, default='DeepBind.pkl',
-                        help='If train is set to True, This path will be used to save your best model. If train is set to False, this path should have the model that you want to use for prediction. default: model.pkl')
+                        help='If train is set to True, This path will be used to save your best model. If train is set to False, this path should have the model that you want to use for prediction ')
     
-    parser.add_argument('--motif', type=bool, default=False, help='use this option to generate motif logos')
+    parser.add_argument('--motif', type=boolean_string, default=False, help='use this option to generate motif logos')
 
     parser.add_argument('--motif_dir', type=str, default='motifs',
                         help='directory to save motifs logos ')
@@ -951,12 +956,12 @@ def parse_arguments(parser):
 
 
 ## architecture
-    parser.add_argument('--Embedding', type=bool, default=False, help='Use embedding layer: True or False')
+    parser.add_argument('--Embedding', type=boolean_string, default=False, help='Use embedding layer: True or False')
 
-    parser.add_argument('--Conv', type=bool, default=True, help='Use conv layer: True or False')
+    parser.add_argument('--Conv', type=boolean_string, default=True, help='Use conv layer: True or False')
 
 
-    parser.add_argument('--RNN', type=bool, default=False, help='Use RNN layer: True or False')
+    parser.add_argument('--RNN', type=boolean_string, default=True, help='Use RNN layer: True or False')
     
     parser.add_argument('--RNN_type', type=str, default='BiLSTM', help='RNN type: LSTM or GRU or BiLSTM or BiGRU')
     
@@ -967,7 +972,7 @@ def parse_arguments(parser):
     
     parser.add_argument('--stride', type=int, default='1', help='stride used for embedding layer, default=1')
     
-    parser.add_argument('--word2vec_train', type=bool, default=True, help='set it to False if you have already trained word2vec model. If you set it to False, you need to specify the path for word2vec model in word2vec_model argument.')
+    parser.add_argument('--word2vec_train', type=boolean_string, default=True, help='set it to False if you have already trained word2vec model. If you set it to False, you need to specify the path for word2vec model in word2vec_model argument.')
     
     parser.add_argument('--word2vec_model', type=str, default='word2vec', help='If word2vec_train is set to True, This path will be used to save your word2vec model. If word2vec_train is set to False, this path should have the word2vec model that you want to use for embedding layer')
 
@@ -978,8 +983,9 @@ def parse_arguments(parser):
     args = parser.parse_args()
 
     return args
-    
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='sequence specificities prediction of DNA- and RNA-binding proteins using deep learning approach')
+def main():
+    parser = argparse.ArgumentParser(description='sequence specificities prediction using deep learning approach')
     args = parse_arguments(parser)
-    run_deepRAM(args)
+    run_deepRAM(args)    
+if __name__ == "__main__":
+    main()
