@@ -30,7 +30,7 @@ usage: deepRAM.py [-h] [--train_data TRAIN_DATA] [--test_data TEST_DATA]
                   [--conv_layers CONV_LAYERS] [--dilation DILATION]
                   [--RNN_layers RNN_LAYERS]
 
-sequence specificities prediction using deep learning approach
+sequence specificities of DNA- and RNA-binding proteins using deep learning approach
 
 optional arguments:
   -h, --help            show this help message and exit
