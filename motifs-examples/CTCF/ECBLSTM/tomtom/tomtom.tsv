@@ -1,0 +1,12 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+filter3	M6483_1.02	11	4.22675e-05	0.0310243	0.0338402	12	CCGCGGGCCGCC	GGGGCCAGGGGGGGGGCGGGGCCG	+
+filter3	M4459_1.02	1	7.01823e-05	0.0515138	0.0338402	12	CCGCGGGCCGCC	CCCCCCCCCCGCCCCCGCAC	-
+filter3	M6482_1.02	1	7.48276e-05	0.0549235	0.0338402	12	CCGCGGGCCGCC	CCCCGGCCCCGCCCCCCCCC	-
+filter4	M2305_1.02	-1	3.15982e-05	0.0231931	0.0463652	11	CCGCGCATGCGG	TGCGCAGGCGC	+
+filter7	M6547_1.02	6	1.82287e-05	0.0133798	0.0262604	12	GCCTGCCGGTCC	GCCGAGGCCTGGGGCCCCC	-
+filter8	M4536_1.02	2	5.30863e-06	0.00389654	0.00566205	12	GCCGCGCGGGCG	GGGGAGGGCGCGCGG	+
+filter8	M6483_1.02	12	7.86836e-06	0.00577537	0.00566205	12	GCCGCGCGGGCG	GGGGCCAGGGGGGGGGCGGGGCCG	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.3 compiled on Jan  3 2019 at 14:13:19
+# The format of this file is described at http://meme-suite.org//doc/tomtom-output-format.html.
+# tomtom -dist pearson -thresh 0.05 -oc motifs/tomtom motifs/filters_meme.txt Jaspar.meme
