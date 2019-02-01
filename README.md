@@ -123,7 +123,7 @@ python setup.py install
 ## Example with CLIP-seq
 #### preprocess CLIP-seq files (train and test) to match deepRAM data format: sequence label
 ```bash
-python3 preprocess_CLIP.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/30000/training_sample_0/sequences.fa.gz --output CLIP_train.gz
+python preprocess_CLIP.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/30000/training_sample_0/sequences.fa.gz --output CLIP_train.gz
 ```
 ```bash
 python preprocess_CLIP.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/30000/test_sample_0/sequences.fa.gz --output CLIP_test.gz
