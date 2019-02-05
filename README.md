@@ -127,7 +127,7 @@ http://tools.genes.toronto.edu/deepbind/nbtcode
 
 2) CLIP-seq datasets can be downloaded from: https://github.com/xypan1232/iDeepS/tree/master/datasets/clip
 
-We have provided two preprocessing scripts to change the format of the used datasets to a format compatible with deepRAM input data format: 
+We have provided two preprocessing scripts to change the format of the used datasets to a format compatible with deepRAM input data format (deepRAM input data format: sequence label): 
 - [preprocess_1.py](https://github.com/MedChaabane/deepRAM/blob/master/preprocess_1.py) can be used for [DeepBind](https://www.nature.com/articles/nbt.3300)-ENCODE-ChIP-seq-data-like format and, 
 - [preprocess_2.py](https://github.com/MedChaabane/deepRAM/blob/master/preprocess_2.py) can be used for [iONMF](https://www.ncbi.nlm.nih.gov/pubmed/26787667)-CLIP-seq-data-like format.
 ## Example with CLIP-seq
