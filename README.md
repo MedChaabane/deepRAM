@@ -121,7 +121,7 @@ pip3 install -r Prerequisites
 python setup.py install
 ```
 ## datasets
-1) ChIP-seq datasets can be downloaded from:
+1. ChIP-seq datasets can be downloaded from:
 http://tools.genes.toronto.edu/deepbind/nbtcode
 
 2) CLIP-seq datasets can be downloaded from: https://github.com/xypan1232/iDeepS/tree/master/datasets/clip
