@@ -120,13 +120,19 @@ pip3 install -r Prerequisites
 ```bash
 python setup.py install
 ```
+## datasets
+1) ChIP-seq datasets can be downloaded from:
+http://tools.genes.toronto.edu/deepbind/nbtcode
+
+2) CLIP-seq datasets can be downloaded from: https://github.com/xypan1232/iDeepS/tree/master/datasets/clip
+
 ## Example with CLIP-seq
 #### preprocess CLIP-seq files (train and test) to match deepRAM data format: sequence label
 ```bash
-python preprocess_fasta.py--CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/30000/training_sample_0/sequences.fa.gz --output CLIP_train.gz
+python preprocess_fasta.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/30000/training_sample_0/sequences.fa.gz --output CLIP_train.gz
 ```
 ```bash
-python preprocess_CLIP.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/30000/test_sample_0/sequences.fa.gz --output CLIP_test.gz
+python preprocess_fasta.py --CLIP_data datasets/CLIP-seq/1_PARCLIP_AGO1234_hg19/30000/test_sample_0/sequences.fa.gz --output CLIP_test.gz
 ```
 #### train DeepBind architecture with CLIP_train.gz and evaluate performance on CLIP_test.gz
 ```
