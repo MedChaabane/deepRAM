@@ -1,3 +1,4 @@
+# This is only used to change Github repository language
 datasets/* linguist-vendored
 motifs-examples/* linguist-vendored
 motifs_database/* linguist-vendored
