@@ -531,7 +531,7 @@ def Load_Data(train_file,test_file):
 		test_dataset=chipseq_dataset(test_data)
 		motif_dataset=chipseq_dataset(motif_data)
 	
-	test_loader = DataLoader(dataset=test_dataset,batch_size=128,shuffle=False)
+	test_loader = DataLoader(dataset=test_dataset,batch_size=128,shuffle=True)
 	motif_loader = DataLoader(dataset=motif_dataset,batch_size=10000000,shuffle=False)
 
 	
